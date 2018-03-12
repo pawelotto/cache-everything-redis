@@ -1,11 +1,12 @@
 # cache-everything-redis #
 Cache every function with Redis 
 
+_This is a TypeScript project, please install typescript (sudo npm i -g typescript) before installing._
+
 ## Motivation ##
 I've seen many caching tools using Redis that do different things. But why install a separate caching tool for every scenario, when you can simply run **every function** you want through a Redis cache? 
 
 **cache-everything-redis** makes it dead simple. 
-
 
 ## Requirements ##
 This module requires a running Redis server
