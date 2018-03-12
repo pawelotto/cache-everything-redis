@@ -23,8 +23,7 @@ async function mySlowFunction(uriToGet, uriParam){
 }
 ```
 This function takes ages to complete because of the slow API server and in my case the response time is 300ms.
-Why not speed things up with Redis?
-
+Why not speed things up with Redis? For a start, let's import the module and configure things up:
 
 ```
 import { cache } from 'cache-everything-redis'
