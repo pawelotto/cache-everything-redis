@@ -1,7 +1,8 @@
 {
   "name": "cache-everything-redis",
-  "version": "1.0.0",
-  "description": "Cache every async function with Redis",
+  "version": "1.0.1",
+  "private": false,
+  "description": "Cache every async function with Redis making it much faster",
   "main": "dist/index.js",
   "types": "src/index.ts",
   "dependencies": {
