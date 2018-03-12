@@ -40,8 +40,8 @@ Now, let's make our slow function super-fast by creating it's cached version:
 const myCachedFunction = cache(mySlowFunction, redisClientOpts, redisCacheTTL, [redisCachePrefix])
 const superFastResult = await myCachedFunction(uriToGet, uriParam)
 ````
-WOW, now I've got the response in just 5ms
+WOW, now I've got the response in just 5ms!
 
-You can run just about any _async_ function through this Redis cache. You can cache MongoDB queries, API queries, Web requests and just about any async function you can think of.
+You can run just about any _async_ function through this Redis cache. You can cache **MongoDB queries**, **API queries**, **Web requests**.
 
 Enjoy!
