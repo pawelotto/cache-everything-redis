@@ -4,14 +4,14 @@ Cache every function with Redis
 ## Motivation ##
 I've seen many caching tools using Redis that do different things. But why install a separate caching tool for every scenario, when you can simply run **every function** you want through a Redis cache? 
 
-**cache-everything-redis** makes it simple as a cake. 
+**cache-everything-redis** makes it dead simple. 
 
 
 ## Requirements ##
 This module requires a running Redis server
 
 ## Quickstart for the impatient ##
-Slow async function situation:
+Consider your _slow async function_ situation:
 
 ```
 const uriToGet = "https://some-very-slow-api.com"
