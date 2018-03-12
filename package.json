@@ -1,0 +1,29 @@
+{
+  "name": "cache-everything-redis",
+  "version": "1.0.0",
+  "description": "Cache every async function with Redis",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "dependencies": {
+    "cacheman-redis": "^1.1.2",
+    "object-hash": "^1.2.0",
+    "pako": "^1.0.6",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawelotto/cache-everything-redis.git"
+  },
+  "keywords": [],
+  "author": "Paweł Otto",
+  "license": "Apache 2-0",
+  "bugs": {
+    "url": "https://github.com/pawelotto/cache-everything-redis/issues"
+  },
+  "homepage": "https://github.com/pawelotto/cache-everything-redis#readme"
+}
